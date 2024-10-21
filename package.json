@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-http-request-tjey",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A http request node for Node-RED with credentials",
   "scripts": {},
   "keywords": [
