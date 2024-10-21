@@ -1,13 +1,16 @@
 {
   "name": "node-red-contrib-http-request-tjey",
-  "version": "1.0.2",
-  "description": "A http request node for Node-RED",
+  "version": "1.0.4",
+  "description": "A http request node for Node-RED with credentials",
   "scripts": {},
   "keywords": [
     "node-red",
     "http",
     "request"
   ],
+  "dependencies": {
+    "got": "12.6.1"
+  },
   "homepage": "https://github.com/tjunussov/node-red-contrib-http-request-tjey",
   "bugs": {
     "url": "https://github.com/tjunussov/node-red-contrib-http-request-tjey/issues"
@@ -28,7 +31,6 @@
     "mocha": "^10.0.0",
     "node-red": "^3.0.2",
     "node-red-node-test-helper": "^0.3.0",
-    "should": "^13.2.3",
-    "got": "12.6.1"
+    "should": "^13.2.3"
   }
 }
