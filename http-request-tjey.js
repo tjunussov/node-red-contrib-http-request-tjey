@@ -399,7 +399,7 @@ in your Node-RED user directory (${RED.settings.userDir}).
             var parsedURL = new URL(url)
             this.credentials = this.credentials || {}
             this.credentials.user = msg.username || parsedURL.username || this.credentials.user;
-            this.credentials.password = msg.password || parsedURL.password || his.credentials.password;
+            this.credentials.password = msg.password || parsedURL.password || this.credentials.password;
             
             if (Object.keys(this.credentials).length != 0) {
                 if (this.authType === "basic") {
